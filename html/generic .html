@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Generic</title>
+  </head>
+  <body>
+    <section>
+      <main>
+        <nav>
+          <div>
+            <a href="../index.html">this is Massively</a>
+            <a href="./generic .html">generic page</a>
+            <a href="./element.html">elements references</a>
+          </div>
+          <div>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-github"></i>
+          </div>
+        </nav>
+        <section>
+          <div>
+            <p id="newD"></p>
+          </div>
+          <div>
+            <h1>And this is a massive headline</h1>
+            <p>
+              Aenean ornare velit lacus varius enim ullamcorper proin aliquam
+              facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor
+              amet nullam sed etiam veroeros.
+            </p>
+          </div>
+          <img
+            src="../images/pexels-jose-martin-segura-benites-1422456152-26587312.jpg"
+            alt="boots"
+            width="500"
+            height="auto"
+          />
+          <a href="#"><p>View more</p></a>
+        </section>
+
+        <section>
+          <p>
+            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum
+            primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
+            mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor
+            sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet,
+            fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit.
+            Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc
+            lorem mauris, fringilla in aliquam at, euismod in lectus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis
+            at, elementum convallis enim turpis, lorem ipsum dolor sit amet
+            nullam.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
+            libero eu nibh porttitor fermentum. Nullam venenatis erat id
+            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
+            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
+            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
+            lectus. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. In non lorem sit amet elit
+            placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex
+            magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Pellentesque venenatis dolor imperdiet dolor mattis sagittis.
+            Praesent rutrum sem diam, vitae egestas enim auctor sit amet.
+            Pellentesque leo mauris, consectetur id ipsum.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <section class="footerview1">
+          <div class="form">
+            <div class="form_container">
+              <div class="form1">
+                <label for="name">name</label><br />
+                <input id="name" type="text" name="name" />
+              </div>
+              <div class="form2">
+                <label for="email">email</label><br />
+                <input type="email" name="email address" id="email" />
+              </div>
+            </div>
+            <label for="message">message</label><br />
+            <textarea name="message" id="message" rows="10" cols="20"></textarea
+            ><br />
+            <div class="submit">
+              <input type="submit" value="send message" /><br />
+            </div>
+          </div>
+
+          <div class="contact">
+            <section>
+              <div class="info">
+                <p>Email</p>
+                <p>
+                  <a href="#">information@untitled.tld</a>
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <div class="info">
+                <p>phone</p>
+                <p>(000) 000-0000 x12387</p>
+              </div>
+            </section>
+
+            <section>
+              <div class="info">
+                <p>address</p>
+                <p class="sm_width">
+                  1234 Somewhere Road #5432 Nashville, TN 00000 United States of
+                  America
+                </p>
+              </div>
+            </section>
+            <section>
+              <p>socials</p>
+              <div>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </section>
+        </section>
+      </footer>
+    </section>
+  </body>
+  <script>
+    var date = new Date();
+    const months = [ "January","February","March","April","May","June","July","August","September","October","November","December"]
+    var d = months[date.getMonth()] + " "+ date.getDate() + ", "+ date.getFullYear();
+    var realDate = document.getElementById("newD");
+    realDate.textContent = d;
+
+</script>
+</html>
